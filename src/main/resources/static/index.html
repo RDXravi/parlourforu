@@ -10,15 +10,57 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" type="text/css" href="css/stylepage.css">
 </head>
 <body>
-<h2>Administrator Panel</h2>
-<div class="home-section">
-    <ul class="menu-list">
-        <li><a href="#/users">Users</a></li>
-        <li><a href="#/roles">Roles</a></li>
-    </ul>
+<div class="header_container">
+
+
+    <div>
+
+        <a id="partner_page" href="www.google.com"> Partner with us</a>
+        <h1 id="tile_page">PARLOUR4U</h1>
+
+        <input id="button1" type="button" name="signup" value="Sign UP">
+        <input id="button2" type="button" name="login" value="Log IN">
+
+    </div>
+
+
 </div>
+
+<hr class="first_line">
+
+<div class="search_area_container">
+
+    <p>Enter the city name</p>
+    <p>to search nearby parlour</p>
+
+    <select id="city_name">
+        <option value="default"></option>
+        <option value="blr">BANGALORE</option>
+        <option value="ncr">NOIDA</option>
+        <option value="del">DELHI</option>
+    </select>
+
+    <select id="area_name" disabled>
+        <option value="">one</option>
+        <option value="">two</option>
+        <option value="">three</option>
+        <option value="">four</option>
+    </select>
+
+    <input type="button" id="search_button" value="SEARCH">
+
+
+
+</div>
+
+
+<!-- FOOTTEERRR to be made-->
+
+
+
 <div ng-view></div>
 <script src="/webjars/angularjs/1.4.9/angular.js"></script>
 <script src="/webjars/angularjs/1.4.9/angular-resource.js"></script>
