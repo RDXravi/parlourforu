@@ -54,7 +54,7 @@
 
 }
 
-#city_name, #area_name{
+#city_name, #area_name, #gender{
     text-align: center;
     font-size: 35px;
 }
